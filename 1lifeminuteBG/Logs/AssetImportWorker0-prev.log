@@ -15,7 +15,7 @@ C:/Users/Usuario/Documents/GitHub/1lifeminute/1lifeminuteBG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56617
+52159
 Successfully changed project path to: C:/Users/Usuario/Documents/GitHub/1lifeminute/1lifeminuteBG
 C:/Users/Usuario/Documents/GitHub/1lifeminute/1lifeminuteBG
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Usuario/Documents/GitHub/1lifeminute/1lifeminuteBG
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22348] Host "[IP] 192.168.8.117 [Port] 0 [Flags] 2 [Guid] 488432381 [EditorId] 488432381 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-33L0UIR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11348] Host "[IP] 192.168.8.117 [Port] 0 [Flags] 2 [Guid] 493887503 [EditorId] 493887503 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-33L0UIR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22348] Host "[IP] 192.168.8.117 [Port] 0 [Flags] 2 [Guid] 488432381 [EditorId] 488432381 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-33L0UIR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11348] Host "[IP] 192.168.8.117 [Port] 0 [Flags] 2 [Guid] 493887503 [EditorId] 493887503 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-33L0UIR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 8.36 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.22 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007314 seconds.
-- Loaded All Assemblies, in  0.277 seconds
+Registered in 0.008514 seconds.
+- Loaded All Assemblies, in  0.294 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 184 ms
+Android Extension - Scanning For ADB Devices 190 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.452 seconds
-Domain Reload Profiling: 728ms
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 775ms
 	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (107ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
 		LoadAssemblies (86ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (104ms)
-				TypeCache.ScanAssembly (93ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (109ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (452ms)
+	FinalizeReload (482ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (406ms)
+		SetupLoadedEditorAssemblies (433ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (273ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (291ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (89ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 728ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.610 seconds
-Refreshing native plugins compatible for Editor in 3.55 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.605 seconds
+Refreshing native plugins compatible for Editor in 3.90 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,148 +130,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.592 seconds
-Domain Reload Profiling: 1201ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1191ms
+	BeginReloadAssembly (132ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (415ms)
-		LoadAssemblies (328ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (404ms)
+		LoadAssemblies (305ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (113ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (593ms)
+	FinalizeReload (588ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (443ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.70 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (244.7 KB). Loaded Objects now: 4492.
-Memory consumption went from 148.9 MB to 148.7 MB.
-Total: 3.791900 ms (FindLiveObjects: 0.465200 ms CreateObjectMapping: 0.238100 ms MarkObjects: 2.843000 ms  DeleteObjects: 0.244800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1563046.937522 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.002075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.710090 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(2bac276a9482e384b8c11fa16d4ad9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(2bac276a9482e384b8c11fa16d4ad9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752990ace0aa2a773d845e1ec8f1c5c2') in 0.000476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 393.580585 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(8a26574352aa5744194f3caf58ddbece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(8a26574352aa5744194f3caf58ddbece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01439c53f0c80f1c00b629d5515aea7') in 0.000514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 29.713979 seconds.
-  path: Assets/Scripts/TileSO.cs
-  artifactKey: Guid(88fb8081ecee7cf4594fefabf9d7ab0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TileSO.cs using Guid(88fb8081ecee7cf4594fefabf9d7ab0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670cf80207b3d9a123665bfc6d87b93b') in 0.000498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.430 seconds
-Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.894 seconds
-Domain Reload Profiling: 1322ms
-	BeginReloadAssembly (140ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (232ms)
-		LoadAssemblies (272ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (894ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (427ms)
+		SetupLoadedEditorAssemblies (452ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (259ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (300ms)
 			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 5.43 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4028 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (217.0 KB). Loaded Objects now: 4498.
-Memory consumption went from 148.5 MB to 148.3 MB.
-Total: 3.027900 ms (FindLiveObjects: 0.303600 ms CreateObjectMapping: 0.201100 ms MarkObjects: 2.347600 ms  DeleteObjects: 0.174700 ms)
+Unloading 4036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.7 KB). Loaded Objects now: 4494.
+Memory consumption went from 149.0 MB to 148.7 MB.
+Total: 5.662100 ms (FindLiveObjects: 0.393400 ms CreateObjectMapping: 0.270500 ms MarkObjects: 4.685300 ms  DeleteObjects: 0.311800 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -288,329 +188,705 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 116.815926 seconds.
-  path: Assets/Scripts/TileSO.cs
-  artifactKey: Guid(88fb8081ecee7cf4594fefabf9d7ab0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TileSO.cs using Guid(88fb8081ecee7cf4594fefabf9d7ab0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c16e363cc1d2b6374e08914adaedd4') in 0.001731 seconds
+  Time since last request: 1735812.624958 seconds.
+  path: Assets/Sprites/New Palette.prefab
+  artifactKey: Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Palette.prefab using Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97095416a695a130828b1b799aa7ff2d') in 0.058953 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.421 seconds
-Refreshing native plugins compatible for Editor in 3.42 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.779 seconds
-Domain Reload Profiling: 1197ms
-	BeginReloadAssembly (134ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (225ms)
-		LoadAssemblies (267ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (780ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (377ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (248ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 4.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4028 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (217.8 KB). Loaded Objects now: 4502.
-Memory consumption went from 150.5 MB to 150.2 MB.
-Total: 3.193700 ms (FindLiveObjects: 0.293500 ms CreateObjectMapping: 0.108200 ms MarkObjects: 2.611200 ms  DeleteObjects: 0.179900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 440.031661 seconds.
-  path: Assets/Scripts/TileListSO.cs
-  artifactKey: Guid(2115cb031f15f0e4b969c5c15ba747e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TileListSO.cs using Guid(2115cb031f15f0e4b969c5c15ba747e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79249c5bdc3a20116e5cbc2d2e160eda') in 0.001982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.423 seconds
-Refreshing native plugins compatible for Editor in 3.39 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.833 seconds
-Domain Reload Profiling: 1253ms
-	BeginReloadAssembly (147ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (215ms)
-		LoadAssemblies (274ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (833ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (393ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (252ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 5.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4029 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (217.0 KB). Loaded Objects now: 4507.
-Memory consumption went from 152.4 MB to 152.2 MB.
-Total: 3.308600 ms (FindLiveObjects: 0.310400 ms CreateObjectMapping: 0.202700 ms MarkObjects: 2.595400 ms  DeleteObjects: 0.199100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4.969613 seconds.
-  path: Assets/Scripts/TileListSO.cs
-  artifactKey: Guid(2115cb031f15f0e4b969c5c15ba747e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TileListSO.cs using Guid(2115cb031f15f0e4b969c5c15ba747e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74917c87c45aab444cf7cbf14cb98f00') in 0.001880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.414 seconds
-Refreshing native plugins compatible for Editor in 3.24 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.864 seconds
-Domain Reload Profiling: 1276ms
-	BeginReloadAssembly (138ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (220ms)
-		LoadAssemblies (267ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (864ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (391ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (251ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 10.96 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4029 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (217.0 KB). Loaded Objects now: 4511.
-Memory consumption went from 154.4 MB to 154.1 MB.
-Total: 3.492500 ms (FindLiveObjects: 0.327100 ms CreateObjectMapping: 0.237500 ms MarkObjects: 2.746400 ms  DeleteObjects: 0.180900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 11.532646 seconds.
-  path: Assets/ScriptableObjects/TileListSO.cs
-  artifactKey: Guid(2115cb031f15f0e4b969c5c15ba747e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/TileListSO.cs using Guid(2115cb031f15f0e4b969c5c15ba747e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1386f1787dbe7dbfa2473d4879726312') in 0.001768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 455.845302 seconds.
-  path: Assets/ScriptableObjects/TileListSO.cs
-  artifactKey: Guid(2115cb031f15f0e4b969c5c15ba747e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/TileListSO.cs using Guid(2115cb031f15f0e4b969c5c15ba747e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab595377e91f0e74576fdfc807a62fc') in 0.000539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.424 seconds
-Refreshing native plugins compatible for Editor in 3.37 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.809 seconds
-Domain Reload Profiling: 1231ms
-	BeginReloadAssembly (136ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (220ms)
-		LoadAssemblies (266ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (810ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (378ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (246ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 5.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4029 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (217.6 KB). Loaded Objects now: 4515.
-Memory consumption went from 156.2 MB to 156.0 MB.
-Total: 3.359800 ms (FindLiveObjects: 0.300900 ms CreateObjectMapping: 0.216500 ms MarkObjects: 2.665000 ms  DeleteObjects: 0.176600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 427.808040 seconds.
-  path: Assets/Sprites/GrassTiles.png
-  artifactKey: Guid(7f4da9b993a840b4dbb2fa40d24ad6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/GrassTiles.png using Guid(7f4da9b993a840b4dbb2fa40d24ad6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c739de50c7700d923ce2b9bea9a02bf') in 0.062117 seconds
+  Time since last request: 3.109584 seconds.
+  path: Assets/Sprites/GrassTiles.asset
+  artifactKey: Guid(d571ed312d1476f4eaa87ce4a3ac822c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/GrassTiles.asset using Guid(d571ed312d1476f4eaa87ce4a3ac822c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d59b1c8091e7f71338208c9ecf2aac6') in 0.015551 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 547.869875 seconds.
-  path: Assets/Sprites/New Brush.brush
-  artifactKey: Guid(81409c5547f521146a1d66178b1e83bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/New Brush.brush using Guid(81409c5547f521146a1d66178b1e83bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245e354ea28e85038935c8b6a77a8aed') in 0.017640 seconds
+  Time since last request: 113.769497 seconds.
+  path: Assets/Sprites/New Palette.prefab
+  artifactKey: Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Palette.prefab using Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d69c0c719ffbdfcf2b27847ea821b3') in 0.009822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 11.927662 seconds.
+  path: Assets/Sprites/New Palette.prefab
+  artifactKey: Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Palette.prefab using Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b61f8200767b0dff1209965b8a93bcd') in 0.011120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 23.310639 seconds.
+  path: Assets/Sprites/New Palette.prefab
+  artifactKey: Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Palette.prefab using Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8629edfc9e9a728bd3678ed4158369') in 0.010321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 87.149312 seconds.
+  path: Assets/Sprites/New Palette.prefab
+  artifactKey: Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Palette.prefab using Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f348324db5d65c94afabbee6664d179d') in 0.009817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 39.438538 seconds.
+  path: Assets/Sprites/New Palette.prefab
+  artifactKey: Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Palette.prefab using Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e878689e878fa958087e8841542b55ea') in 0.005680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 118.017149 seconds.
+  path: Assets/Sprites/New Palette.prefab
+  artifactKey: Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Palette.prefab using Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ebf2e4146c61e6c07e53c35af54da0') in 0.013122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 764.701157 seconds.
+  path: Assets/Sprites/Tiles
+  artifactKey: Guid(bcc615d46d308b4499eaf8de75626ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiles using Guid(bcc615d46d308b4499eaf8de75626ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ec5e7a645284e46495fea8aae30a60') in 0.000549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.968897 seconds.
+  path: Assets/Sprites/GrassTiles.png
+  artifactKey: Guid(7f4da9b993a840b4dbb2fa40d24ad6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/GrassTiles.png using Guid(7f4da9b993a840b4dbb2fa40d24ad6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d888b2dbcc76a3d44d8fe374e810cf') in 0.022649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 263.240611 seconds.
+  path: Assets/Sprites/DirtBackgroundTiles.png
+  artifactKey: Guid(158edb402f4f802499f403e807e5ee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/DirtBackgroundTiles.png using Guid(158edb402f4f802499f403e807e5ee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2419dac77022710be520a3b6b71e5b40') in 0.011852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/SpikeTiles.png
+  artifactKey: Guid(60cd69d28ee33e0478500e7b75c07d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpikeTiles.png using Guid(60cd69d28ee33e0478500e7b75c07d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba955d9dbe1600ce192f92c242ff97a') in 0.010687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 138.534552 seconds.
+  path: Assets/Sprites/DirtTiles.png
+  artifactKey: Guid(8400b0798371a704685a8a25befb6947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/DirtTiles.png using Guid(8400b0798371a704685a8a25befb6947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7584950ef85c289351b005b36edcb548') in 0.010903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 85.747444 seconds.
+  path: Assets/Sprites/GrassTiles.png
+  artifactKey: Guid(7f4da9b993a840b4dbb2fa40d24ad6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/GrassTiles.png using Guid(7f4da9b993a840b4dbb2fa40d24ad6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7ab4fa4067d26ff95efb5b0a4b8135') in 0.011468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.124648 seconds.
+  path: Assets/Sprites/GrassTiles.png
+  artifactKey: Guid(7f4da9b993a840b4dbb2fa40d24ad6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/GrassTiles.png using Guid(7f4da9b993a840b4dbb2fa40d24ad6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54799dec8c4e2827ba75191e50b6a3b') in 0.010333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 442.364068 seconds.
+  path: Assets/Sprites/New Palette.prefab
+  artifactKey: Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Palette.prefab using Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60d4ded2fe4d2ece0b061918b93981e') in 0.011357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.986934 seconds.
+  path: Assets/Sprites/New Palette.prefab
+  artifactKey: Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Palette.prefab using Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c28bc8231b4d8d5022538c33a6a6a84') in 0.010691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.392481 seconds.
+  path: Assets/Sprites/New Palette.prefab
+  artifactKey: Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Palette.prefab using Guid(31949ebefcb5f23438aae967f67cb09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5911f7b9e9004c5fa5f3d355033873') in 0.010862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 23.928815 seconds.
+  path: Assets/Sprites/GrassTiles.png
+  artifactKey: Guid(7f4da9b993a840b4dbb2fa40d24ad6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/GrassTiles.png using Guid(7f4da9b993a840b4dbb2fa40d24ad6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c074fe82c9fe0e4115d12c4c9602fc1') in 0.010837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 164.075076 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands
+  artifactKey: Guid(5ddda599cc54b63419016da8b7dfa947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands using Guid(5ddda599cc54b63419016da8b7dfa947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae22c5c09f4ac265588a7952decfc059') in 0.000540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.471297 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs
+  artifactKey: Guid(1cc4071825755d64caeabc6588223ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs using Guid(1cc4071825755d64caeabc6588223ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b3908a92e626056a88f719de3cb39d') in 0.000449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.086935 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites
+  artifactKey: Guid(e14b5d4b37a28ec4c823258f491d32b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites using Guid(e14b5d4b37a28ec4c823258f491d32b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d752781ee9a30b397bdd4ef09beb80') in 0.000433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.721497 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Platformer Palette.prefab
+  artifactKey: Guid(572c26a0233c5634d87e192be0336ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Platformer Palette.prefab using Guid(572c26a0233c5634d87e192be0336ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd284ed71a96503fd7a2e69b87f70f347') in 0.082099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 2.706726 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles
+  artifactKey: Guid(8cb3e0608e7a4ea4e8c5a425d0e8e93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles using Guid(8cb3e0608e7a4ea4e8c5a425d0e8e93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00483b8130c2720673576a1b8c32d174') in 0.000511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.119721 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_0.asset
+  artifactKey: Guid(0bba56b50b4245742bf05b551cc53ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_0.asset using Guid(0bba56b50b4245742bf05b551cc53ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54a17675e6e9446b0d8f65be2ae1c26') in 0.009760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021396 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_3.asset
+  artifactKey: Guid(ec5342ee332bc5a49a0e66a52ef977a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_3.asset using Guid(ec5342ee332bc5a49a0e66a52ef977a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bc09bd7e1bf9909583459e1aceedfc') in 0.010400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_27.asset
+  artifactKey: Guid(d009e9c6c73202047b31255aefc60e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_27.asset using Guid(d009e9c6c73202047b31255aefc60e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf388c29062fd63a56de5ce56690166') in 0.008304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_22.asset
+  artifactKey: Guid(a1c648880d9137a48a1f5726a3d9baa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_22.asset using Guid(a1c648880d9137a48a1f5726a3d9baa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd060952928f2984a628745399a60d05d') in 0.007398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_39.asset
+  artifactKey: Guid(3ed25bc14687d4f49a8c5eb7084f0f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_39.asset using Guid(3ed25bc14687d4f49a8c5eb7084f0f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd1595ddf64328c8365243eceea3eec') in 0.007304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_33.asset
+  artifactKey: Guid(d2ca3f03e0fbfee478695bee25fd1bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_33.asset using Guid(d2ca3f03e0fbfee478695bee25fd1bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd276da727bf7df8888765a6916ac8fdb') in 0.008212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_42.asset
+  artifactKey: Guid(a64acc11f05c02e41b34fedd3be1f231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_42.asset using Guid(a64acc11f05c02e41b34fedd3be1f231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0fab13d83fc073ef611755da806307') in 0.009050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_21.asset
+  artifactKey: Guid(e51342904ca06ea49a41f72e7cb02657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_21.asset using Guid(e51342904ca06ea49a41f72e7cb02657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4858577cbdfb1bc9bb8ea6c5274fc807') in 0.003707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_30.asset
+  artifactKey: Guid(f26e0acac0191c245a031f0b990415ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_30.asset using Guid(f26e0acac0191c245a031f0b990415ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e2d6699b00b1d5617ad2540bade69b') in 0.006348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_31.asset
+  artifactKey: Guid(b41a2c2d96e45b14d93ef24c1ee2c3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_31.asset using Guid(b41a2c2d96e45b14d93ef24c1ee2c3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f71cbf79f6bd740d6efb927202ea83') in 0.007842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_49.asset
+  artifactKey: Guid(b2faca83df145944a8cb0a2dc08e4d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_49.asset using Guid(b2faca83df145944a8cb0a2dc08e4d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bdc2c29f0e1399a3d0897ae8450f59') in 0.007440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_27.asset
+  artifactKey: Guid(4dd5333bce4781e48b6bc9dbd6fb206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_27.asset using Guid(4dd5333bce4781e48b6bc9dbd6fb206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f030b323e21446eea0dccda7496880') in 0.007308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_36.asset
+  artifactKey: Guid(8b3f2582f84fd4e46988db91c5a99032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_36.asset using Guid(8b3f2582f84fd4e46988db91c5a99032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6f935206190a40627c06220ecb1348') in 0.007619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_18.asset
+  artifactKey: Guid(3fee07461f5e8eb40a0f6cadb38ce299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_18.asset using Guid(3fee07461f5e8eb40a0f6cadb38ce299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d456e879847cd2c305690e54f54bc69') in 0.006962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_12.asset
+  artifactKey: Guid(e47ce4d3456e38645a79fb703e8003f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_12.asset using Guid(e47ce4d3456e38645a79fb703e8003f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab4f09ddd830cf50d5b0e3564ac6549') in 0.006738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_30.asset
+  artifactKey: Guid(8fd7ce8e5f384cd47a0d27fee44a1918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_30.asset using Guid(8fd7ce8e5f384cd47a0d27fee44a1918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a2cfb7f6606f60b4f8a8392e0a2e6b') in 0.006192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_34.asset
+  artifactKey: Guid(013bb3ca87f257848bc19cd831231636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_34.asset using Guid(013bb3ca87f257848bc19cd831231636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789d34ee2c121b36e0bb8e1dfbe61172') in 0.007082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_50.asset
+  artifactKey: Guid(009b27859b12ac045b73d166e7bb5bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_50.asset using Guid(009b27859b12ac045b73d166e7bb5bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91241de3edb98415de58bb9763947c8a') in 0.003752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_24.asset
+  artifactKey: Guid(aed93102cb427544cad9b131b20e1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_24.asset using Guid(aed93102cb427544cad9b131b20e1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381370e2ce8d35da07586b3490a6d605') in 0.006675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_41.asset
+  artifactKey: Guid(8a304e1f4e351ed4d8657043e4b9124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_41.asset using Guid(8a304e1f4e351ed4d8657043e4b9124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a80469b5f53e58a2c17dce4d7aba94') in 0.003416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_51.asset
+  artifactKey: Guid(6cb027a9c8c1cd24083932aa76455e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_51.asset using Guid(6cb027a9c8c1cd24083932aa76455e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dc1dc248baf9db9a485756fc68365e') in 0.002759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_6.asset
+  artifactKey: Guid(326453df5f51ddf45b4cb576577d943b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_6.asset using Guid(326453df5f51ddf45b4cb576577d943b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0198c55f420c12fd78a0ad9472bcfb92') in 0.006062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_29.asset
+  artifactKey: Guid(8bf10846b8f75ee46a6beca66cc53550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_29.asset using Guid(8bf10846b8f75ee46a6beca66cc53550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c43ee95fa42d2b26d818962ced80893') in 0.003793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_47.asset
+  artifactKey: Guid(1fec558a9fc89c44da1d49f56a6cd6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_47.asset using Guid(1fec558a9fc89c44da1d49f56a6cd6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7c64b72d7bcffc179522bef8dbaf4e') in 0.006665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_10.asset
+  artifactKey: Guid(e34e4554f1592404ab9900afdb78087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_10.asset using Guid(e34e4554f1592404ab9900afdb78087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191531f1bc1ec486fb2129be585b1f9e') in 0.006786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_23.asset
+  artifactKey: Guid(ee2a22652403b7e429466d56a0b5e779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_23.asset using Guid(ee2a22652403b7e429466d56a0b5e779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d62c887d791ef80dbef32706b3a3d6') in 0.003301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_0.asset
+  artifactKey: Guid(f47ef68ebd3a9e547b3f2c2d9b7a4a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_0.asset using Guid(f47ef68ebd3a9e547b3f2c2d9b7a4a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c2cf063b77bec9c62154c037843f6b') in 0.003006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_2.asset
+  artifactKey: Guid(e0a56004fa23af648ae8a7848967a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_2.asset using Guid(e0a56004fa23af648ae8a7848967a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a057f3c5704b7744963128f399c83324') in 0.005983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_24.asset
+  artifactKey: Guid(0470177a445526c41a84bb22193bb9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_24.asset using Guid(0470177a445526c41a84bb22193bb9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5dad352db00775b41653e03bb9416f') in 0.007164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_5.asset
+  artifactKey: Guid(beeeae3d876addb4ab2eeffc361b2760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_5.asset using Guid(beeeae3d876addb4ab2eeffc361b2760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1e30366fa890a3e1403a3b4c8c40c8') in 0.006278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_10.asset
+  artifactKey: Guid(4aacb53454a7c604d9a5c903fef48a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_10.asset using Guid(4aacb53454a7c604d9a5c903fef48a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a43934cf8d6df059090f8490bc545d') in 0.006702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_41.asset
+  artifactKey: Guid(07431814a355f0e40a96e4075a14c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_41.asset using Guid(07431814a355f0e40a96e4075a14c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b56f55d668c2e5748cacddd6e01617') in 0.007759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_34.asset
+  artifactKey: Guid(34331f621e255a147b66852778eac7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_34.asset using Guid(34331f621e255a147b66852778eac7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2362c7d10dcf0a4804e6cb5cab434b9e') in 0.007525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_42.asset
+  artifactKey: Guid(0caf4529f8b60e445b4ae1c5abb932ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_42.asset using Guid(0caf4529f8b60e445b4ae1c5abb932ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37106d277a01bd683153cc8d948e0a3') in 0.006655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_38.asset
+  artifactKey: Guid(b4162b0ea33a12b4b8bdf79f7b2d3a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_38.asset using Guid(b4162b0ea33a12b4b8bdf79f7b2d3a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d57f4ccbc6ab1b871ef117e5105879') in 0.003402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_35.asset
+  artifactKey: Guid(fc604130e16507d4e995efd42f1ddaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_35.asset using Guid(fc604130e16507d4e995efd42f1ddaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8ccab9db7391e3079fe869b0031d87') in 0.003328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_7.asset
+  artifactKey: Guid(d7067a3c940d2b94abfb164bf3b8a314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_7.asset using Guid(d7067a3c940d2b94abfb164bf3b8a314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd9f05119c8634b6cb1e71b16c60e08') in 0.004449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_43.asset
+  artifactKey: Guid(401e39cf55193ac4ba2f4540c3d135b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_43.asset using Guid(401e39cf55193ac4ba2f4540c3d135b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8da7c06f7ed552bf334f8f54b7fb66e') in 0.007434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_33.asset
+  artifactKey: Guid(52fa74fe036365547bcfd17fea9b989b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_33.asset using Guid(52fa74fe036365547bcfd17fea9b989b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c2d79d8d23a57ae86a7dd6b84b74c7') in 0.007981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_6.asset
+  artifactKey: Guid(600724760407848418663912fdbde80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_6.asset using Guid(600724760407848418663912fdbde80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89449823eebc54b01ccb4cfec4f97ba9') in 0.006698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_9.asset
+  artifactKey: Guid(d7b7b4f9c9663cf48b9af6eee6ea109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_9.asset using Guid(d7b7b4f9c9663cf48b9af6eee6ea109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0fabd15f3e741e4234b5a07613e1ed') in 0.004371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_28.asset
+  artifactKey: Guid(073a4b3092131b245b11858fb937bd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_28.asset using Guid(073a4b3092131b245b11858fb937bd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42238682fd46285a41610256a7b7ba8') in 0.007124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_32.asset
+  artifactKey: Guid(ce4dc868da3fa8248ab7d4ec92d9a5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_32.asset using Guid(ce4dc868da3fa8248ab7d4ec92d9a5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b75388a68170d130bc6a176d5eae32f') in 0.006142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_32.asset
+  artifactKey: Guid(c18232be089e0c04a9a1d60343ee1a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_32.asset using Guid(c18232be089e0c04a9a1d60343ee1a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14132667dc351098ba7a86cfa2ec16b9') in 0.007147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_43.asset
+  artifactKey: Guid(329f708a11a1afd4e8c1732708a668c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_43.asset using Guid(329f708a11a1afd4e8c1732708a668c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2547854adba07091c9dc3fa40d2538') in 0.008221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_48.asset
+  artifactKey: Guid(16fed9c63bdbd7049b2d07bc52825d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_48.asset using Guid(16fed9c63bdbd7049b2d07bc52825d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc453592960a090b35691de0e977b02') in 0.004126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_16.asset
+  artifactKey: Guid(71ef291c9d7da194db9ac6e209ccb8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_16.asset using Guid(71ef291c9d7da194db9ac6e209ccb8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baeb8f74e1b548b358cd2a9346fe4f82') in 0.006520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_16.asset
+  artifactKey: Guid(53ee903292f04824ca1f1482653b7f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_16.asset using Guid(53ee903292f04824ca1f1482653b7f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db2581238254f77df36ce47f0848533') in 0.007013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_40.asset
+  artifactKey: Guid(4ae95cbe4e75b14479ac983f7b43402b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_40.asset using Guid(4ae95cbe4e75b14479ac983f7b43402b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179531a137987a0034da1598c2f3dabb') in 0.007240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_26.asset
+  artifactKey: Guid(2c7f2e6206496324ba2b63f72e7cd7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_26.asset using Guid(2c7f2e6206496324ba2b63f72e7cd7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b26bd1c81406b2b1ccf9417d940eb9e') in 0.006669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.105385 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures
+  artifactKey: Guid(028af2e440d6f8246881d1a366ca8058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures using Guid(028af2e440d6f8246881d1a366ca8058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c307206ab1f70e9794b504aa72ae9b0e') in 0.000474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.717862 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Decor
+  artifactKey: Guid(f82aecaa275e62e4f9c988a1c9632e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Decor using Guid(f82aecaa275e62e4f9c988a1c9632e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a676a8a6a532aadcd6f0ca159cc35062') in 0.000443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080516 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Decor/Decor.png
+  artifactKey: Guid(198c5cf9dad20144995fd44cf395c218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Decor/Decor.png using Guid(198c5cf9dad20144995fd44cf395c218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bbc83e54b4f7f008d4c3b9aef6f113') in 0.023696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 4.118192 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles
+  artifactKey: Guid(ad4d275bf5af5764db8098a418d487dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles using Guid(ad4d275bf5af5764db8098a418d487dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c4b9f93dbb3510046f4ba7374e2127') in 0.000518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096181 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/DirtBackgroundTiles.png
+  artifactKey: Guid(3a6f603276eca1e4dab29831a1cfd471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/DirtBackgroundTiles.png using Guid(3a6f603276eca1e4dab29831a1cfd471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9788a39234c53c31ca55f95a214325') in 0.055784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/GrassTiles.png
+  artifactKey: Guid(66453c654294d2045aa5eb98e5ea9f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/GrassTiles.png using Guid(66453c654294d2045aa5eb98e5ea9f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59186653d7a50ee7c78520c7a4dddb84') in 0.106154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 118.077100 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Bush1.prefab
+  artifactKey: Guid(cc92fc30c0cc12843ace4dfba1b2a7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Bush1.prefab using Guid(cc92fc30c0cc12843ace4dfba1b2a7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84197543d560950dd3671e231f94be11') in 0.014520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Tree2.prefab
+  artifactKey: Guid(512108d047703db44a09d9aa681173d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Tree2.prefab using Guid(512108d047703db44a09d9aa681173d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae8def9c95f8ef2de0c5b710709ce42') in 0.011598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Rock2.prefab
+  artifactKey: Guid(7f7b34cda5ce2b845affdea1f5af3cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Rock2.prefab using Guid(7f7b34cda5ce2b845affdea1f5af3cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34584b849b0bf7e907cfe494fbc6aafd') in 0.010442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/WoodenSign.prefab
+  artifactKey: Guid(3f0733b56e08e8c4a852b694cbbc24a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/WoodenSign.prefab using Guid(3f0733b56e08e8c4a852b694cbbc24a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ca0c552eca6102f0e82cf19c006a34') in 0.012200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 11.852327 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Character/CharacterSheet.png
+  artifactKey: Guid(496562456fdbe6647887febf11640c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Character/CharacterSheet.png using Guid(496562456fdbe6647887febf11640c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a2019fada68b9704fdaff9bb29f7ae') in 0.022951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1.313931 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Character/Animations
+  artifactKey: Guid(c661a1def58ff2946b0affed175d3451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Character/Animations using Guid(c661a1def58ff2946b0affed175d3451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1257ff9959d3e4999a4e8e8e4f8750') in 0.000439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.437833 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Character/Animations/Character1
+  artifactKey: Guid(779ca1ae75b4d6540bf78709501083e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Character/Animations/Character1 using Guid(779ca1ae75b4d6540bf78709501083e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e010da1c560015dec2d4a0c77819e5f4') in 0.000474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.067976 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Character/Animations/Character1/Character1Fall.anim
+  artifactKey: Guid(eab4b6e586e2e0f4481864ea20090ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Character/Animations/Character1/Character1Fall.anim using Guid(eab4b6e586e2e0f4481864ea20090ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c85ed2bf2e2294d74297faa96d6ef81') in 0.001193 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
