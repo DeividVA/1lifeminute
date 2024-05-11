@@ -615,9 +615,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 814b22db683c743479d8143f3fc6ef73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 682003644262392135, guid: 5bc5e247ee3a9ee4692ea5b0753e546a, type: 3}
   background: {fileID: 691764279}
   grid: {fileID: 92796913}
-  tileBackground: {fileID: 11400000, guid: d7b7b4f9c9663cf48b9af6eee6ea109f, type: 2}
+  tileBackground: {fileID: 11400000, guid: 46b3bc368b4ee7f49b5925dd0def9076, type: 2}
   sceneSize: 5
   tileAtom:
   - {fileID: 0}
@@ -626,11 +627,21 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 11400000, guid: 61d50793e252c5149906b2e2295535da, type: 2}
-  - {fileID: 11400000, guid: 34ea4951d47c4734d8b66eccc19f94ca, type: 2}
-  - {fileID: 11400000, guid: 3085c91a9081e584fb7e879ac76c9eca, type: 2}
+  - {fileID: 11400000, guid: 837ca541cbc8e6344b613a353473a702, type: 2}
+  - {fileID: 11400000, guid: eed329e33acf6a44c8770dec62b79910, type: 2}
+  - {fileID: 11400000, guid: 2a0745824c622874a8cfe6d8538b286b, type: 2}
   atomSize: 3
-  platformNumber: 3
+  platformNumber: 7
+  box: {fileID: 8658543670507190393, guid: da40e52d7c739284fbd8e93c6e564170, type: 3}
+  boxNumber: 3
+  foodType:
+  - Pizza
+  - Salad
+  - Water
+  - Burger
+  - Coke
+  - Rotten
+  - Fruit
 --- !u!4 &731061241
 Transform:
   m_ObjectHideFlags: 0
