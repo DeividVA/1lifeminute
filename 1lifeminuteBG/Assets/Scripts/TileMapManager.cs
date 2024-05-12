@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.Tilemaps;
+using UnityEngine.UIElements;
 
 public class TileMapManager : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class TileMapManager : MonoBehaviour
 
     //List of tiles to assign the platform graphics
     [SerializeField] private List<Tile> tileAtom;
-    
+
     //How many tiles in one atom? If atomSize = 3, the atom will be 3x3 tiles (9)
     [SerializeField] private int atomSize;
 
@@ -28,9 +29,11 @@ public class TileMapManager : MonoBehaviour
     [SerializeField] private GameObject box;
     [SerializeField] private int boxNumber;
 
-    private int randomTest = 10;
-    //private string[] foodType = new List<> {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+    [SerializeField] private Vector3 boxOffset;
+
     [SerializeField] List<string> foodType = new List<string>();
+
+    [SerializeField] private GameObject door;
 
     // Start is called before the first frame update
     void Start()
@@ -45,7 +48,7 @@ public class TileMapManager : MonoBehaviour
 
             }
 
-   
+
 
         // fill every cell with platforms
         // for (int i = 0; i < sceneSize; i++)
@@ -56,14 +59,18 @@ public class TileMapManager : MonoBehaviour
 
         // platform matrix
         List<List<bool>> platforms = new List<List<bool>>();
-        
+        List<List<bool>> boxes = new List<List<bool>>();
+
         for (int i = 0; i < sceneSize; i++)
         {
             platforms.Add(Enumerable.Repeat<bool>(false, sceneSize).ToList());
+            boxes.Add(Enumerable.Repeat<bool>(false, sceneSize).ToList());
         }
 
         platforms[0][0] = true;
         PutPlatform(0, 0);
+        Instantiate(door, GetWorldPosition(0, 0) + boxOffset, Quaternion.identity);
+
         // console debug map
         // for(int i=0; i<sceneSize; i++)
         // for(int j=0; j<sceneSize; j++)
@@ -80,9 +87,28 @@ public class TileMapManager : MonoBehaviour
                 y = random.Next(sceneSize);
             } while (platforms[x][y]);
 
-            PutPlatform(x, y);
+            if (y != sceneSize - 1)
+            {
+                if (platforms[x][y + 1] == true)
+                {
+                    return;
+                } 
+                else
+                {
+                    PutPlatform(x, y);
 
-            platforms[x][y] = true;
+                    platforms[x][y] = true;
+                }
+            }
+            else
+            {
+                PutPlatform(x, y);
+
+                platforms[x][y] = true;
+            }
+
+
+
         }
 
 
@@ -99,10 +125,10 @@ public class TileMapManager : MonoBehaviour
                 x = random.Next(sceneSize);
                 y = random.Next(sceneSize);
                 index = random.Next(foodType.Count);
-                if (platforms[x][y] == true)
-                    Instantiate(box, GetWorldPosition(x, y), Quaternion.identity);
-                    Debug.Log($"{foodType[index]}");
-                    
+                if (platforms[x][y] == true && boxes[x][y] == false)
+                    Instantiate(box, GetWorldPosition(x, y) + boxOffset, Quaternion.identity);
+                Debug.Log($"{foodType[index]}");
+
             } while (platforms[x][y]);
         }
 
@@ -145,4 +171,7 @@ public class TileMapManager : MonoBehaviour
     {
 
     }
+
+
+
 }
