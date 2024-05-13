@@ -69,7 +69,7 @@ public class TileMapManager : MonoBehaviour
 
         platforms[0][0] = true;
         PutPlatform(0, 0);
-        Instantiate(door, GetWorldPosition(0, 0) + boxOffset, Quaternion.identity);
+        Instantiate(door, GetWorldPosition(0, 0), Quaternion.identity);
 
         // console debug map
         // for(int i=0; i<sceneSize; i++)
