@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecd409ed18fe15e4cb509dcac0616af2, type: 3}
   m_Name: Pizza
   m_EditorClassIdentifier: 
-  foodPrefab: {fileID: 4029674604850874897, guid: 15680ce08226a904bbc765d0e812308a, type: 3}
-  value: 0
+  food: Pizza
+  foodPrefab: {fileID: 8658543670507190393, guid: da40e52d7c739284fbd8e93c6e564170, type: 3}
+  healthyPoints: 10
+  color: {r: 0.745283, g: 0.7410296, b: 0.08788714, a: 0}

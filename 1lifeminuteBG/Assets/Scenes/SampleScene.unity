@@ -803,6 +803,7 @@ MonoBehaviour:
   box: {fileID: 8658543670507190393, guid: da40e52d7c739284fbd8e93c6e564170, type: 3}
   boxNumber: 3
   boxOffset: {x: 0.5, y: -0.5, z: 0}
+  foodTypes: {fileID: 11400000, guid: 77e1748afe9083e4eba29e5821edbd5f, type: 2}
   door: {fileID: 7425375980413628323, guid: 6e672fb34ce5f034e8bd711983997faf, type: 3}
 --- !u!4 &731061241
 Transform:

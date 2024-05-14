@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class BoxController : MonoBehaviour
 {
-    //public FoodTypeSO type;
+
+    public FoodTypeSO type;
 
     // Start is called before the first frame update
     void Start()

@@ -31,7 +31,7 @@ public class TileMapManager : MonoBehaviour
 
     [SerializeField] private Vector3 boxOffset;
 
-    //[SerializeField] FoodTypeListSO foodType;
+    [SerializeField] FoodTypeListSO foodTypes;
 
     [SerializeField] private GameObject door;
 
@@ -61,7 +61,7 @@ public class TileMapManager : MonoBehaviour
         List<List<bool>> platforms = new List<List<bool>>();
         List<List<bool>> boxes = new List<List<bool>>();
 
-        List<Position> buildedPlatforms = new List<Position>();
+        //List<Position> buildedPlatforms = new List<Position>();
 
         for (int i = 0; i < sceneSize; i++)
         {
@@ -80,9 +80,10 @@ public class TileMapManager : MonoBehaviour
         // for(int i=0; i<sceneSize; i++)
         // for(int j=0; j<sceneSize; j++)
         //     Debug.Log($"{i} {j} {platforms[i][j]}");
-
-        System.Random random = new System.Random();
+        
+        
         // random platform generation
+        System.Random random = new System.Random();
         int e = 0;
         while (e < platformNumber)
         {
@@ -107,8 +108,8 @@ public class TileMapManager : MonoBehaviour
                         PutPlatform(x, y);
                         platforms[x][y] = true;
                         e++;
-                        Position p = new Position(x, y);
-                        buildedPlatforms.Add(p);
+                        //Position p = new Position(x, y);
+                        //buildedPlatforms.Add(p);
                     }
                 }
                 else if (platforms[x][y + 1] == true || platforms[x][y - 1] == true)
@@ -122,8 +123,8 @@ public class TileMapManager : MonoBehaviour
                     platforms[x][y] = true;
                     e++;
 
-                    Position p = new Position(x, y);
-                    buildedPlatforms.Add(p);
+                    //Position p = new Position(x, y);
+                    //buildedPlatforms.Add(p);
                 }
             }
             else
@@ -139,8 +140,8 @@ public class TileMapManager : MonoBehaviour
                     platforms[x][y] = true;
                     e++;
 
-                    Position p = new Position(x, y);
-                    buildedPlatforms.Add(p);
+                    //Position p = new Position(x, y);
+                    //buildedPlatforms.Add(p);
 
                 }
             }
@@ -151,23 +152,34 @@ public class TileMapManager : MonoBehaviour
 
         // random box generation
         int b = 0;
-        while (b < buildedPlatforms.Count)
+        while (b < boxNumber)
         {
             int x, y;
 
             int index;
 
-            x = random.Next(sceneSize);
-            y = random.Next(sceneSize);
+            do
+            {
+                x = random.Next(sceneSize);
+                y = random.Next(sceneSize);
+                index = random.Next(foodTypes.foods.Count);
+            } while (!platforms[x][y]);
 
-            //index = random.Next(foodType.Count);
+
+
+            if (x==0 && y ==0)
+            { 
+                continue; 
+            }
 
             if (platforms[x][y] == true && boxes[x][y] == false)
             {
-                GameObject newBox =  Instantiate(box, GetWorldPosition(x, y) + boxOffset, Quaternion.identity);
-                //newBox.GetComponent<BoxController>().type = index;
+
+                GameObject newBox = Instantiate(foodTypes.foods[index].foodPrefab, GetWorldPosition(x, y) + boxOffset, Quaternion.identity);
+                Debug.Log(foodTypes.foods[index].food);
+                //newBox.GetComponent<SpriteRenderer>().color = foodTypes.foods[index].color;
+                boxes[x][y] = true;
                 b++;
-                //Debug.Log($"{foodType[index]}");
             }
 
 
@@ -214,16 +226,27 @@ public class TileMapManager : MonoBehaviour
 
     }
 
-    public class Position
+    public class Index
     {
-        public int Row;
-        public int Col;
+        public int Ind;
 
-        public Position(int row, int col)
+        public Index(int ind)
         {
-            Row = row;
-            Col = col;
+            Ind = ind;
         }
     }
+
+    public class FoodToInstance
+    {
+        public Index ind;
+        public FoodTypeSO food;
+
+        public FoodToInstance(Index ind, FoodTypeSO food)
+        {
+            this.ind = ind;
+            this.food = food;
+        }
+    }
+
 
 }
