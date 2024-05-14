@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BoxController : MonoBehaviour
 {
+    //public FoodTypeSO type;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,7 @@ public class BoxController : MonoBehaviour
     }
     IEnumerator Disapear()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(20);
         DestroyThis();
     }
 

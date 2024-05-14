@@ -31,7 +31,7 @@ public class TileMapManager : MonoBehaviour
 
     [SerializeField] private Vector3 boxOffset;
 
-    [SerializeField] List<string> foodType = new List<string>();
+    //[SerializeField] FoodTypeListSO foodType;
 
     [SerializeField] private GameObject door;
 
@@ -61,11 +61,16 @@ public class TileMapManager : MonoBehaviour
         List<List<bool>> platforms = new List<List<bool>>();
         List<List<bool>> boxes = new List<List<bool>>();
 
+        List<Position> buildedPlatforms = new List<Position>();
+
         for (int i = 0; i < sceneSize; i++)
         {
             platforms.Add(Enumerable.Repeat<bool>(false, sceneSize).ToList());
             boxes.Add(Enumerable.Repeat<bool>(false, sceneSize).ToList());
         }
+
+
+
 
         platforms[0][0] = true;
         PutPlatform(0, 0);
@@ -78,7 +83,8 @@ public class TileMapManager : MonoBehaviour
 
         System.Random random = new System.Random();
         // random platform generation
-        for (int i = 0; i < platformNumber; i++)
+        int e = 0;
+        while (e < platformNumber)
         {
             int x, y;
             do
@@ -88,48 +94,84 @@ public class TileMapManager : MonoBehaviour
             } while (platforms[x][y]);
 
             if (y != sceneSize - 1)
+
             {
-                if (platforms[x][y + 1] == true)
+                if (y == 0)
                 {
-                    return;
-                } 
+                    if (platforms[x][y + 1] == true)
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        PutPlatform(x, y);
+                        platforms[x][y] = true;
+                        e++;
+                        Position p = new Position(x, y);
+                        buildedPlatforms.Add(p);
+                    }
+                }
+                else if (platforms[x][y + 1] == true || platforms[x][y - 1] == true)
+                {
+                    continue;
+                }
                 else
                 {
                     PutPlatform(x, y);
 
                     platforms[x][y] = true;
+                    e++;
+
+                    Position p = new Position(x, y);
+                    buildedPlatforms.Add(p);
                 }
             }
             else
             {
-                PutPlatform(x, y);
+                if (platforms[x][y - 1] == true)
+                {
+                    continue;
+                }
+                else
+                {
+                    PutPlatform(x, y);
 
-                platforms[x][y] = true;
+                    platforms[x][y] = true;
+                    e++;
+
+                    Position p = new Position(x, y);
+                    buildedPlatforms.Add(p);
+
+                }
             }
-
-
 
         }
 
-
+        //Debug.Log(buildedPlatforms.Count);
 
         // random box generation
-        for (int i = 0; i < boxNumber; i++)
+        int b = 0;
+        while (b < buildedPlatforms.Count)
         {
             int x, y;
 
             int index;
 
-            do
-            {
-                x = random.Next(sceneSize);
-                y = random.Next(sceneSize);
-                index = random.Next(foodType.Count);
-                if (platforms[x][y] == true && boxes[x][y] == false)
-                    Instantiate(box, GetWorldPosition(x, y) + boxOffset, Quaternion.identity);
-                Debug.Log($"{foodType[index]}");
+            x = random.Next(sceneSize);
+            y = random.Next(sceneSize);
 
-            } while (platforms[x][y]);
+            //index = random.Next(foodType.Count);
+
+            if (platforms[x][y] == true && boxes[x][y] == false)
+            {
+                GameObject newBox =  Instantiate(box, GetWorldPosition(x, y) + boxOffset, Quaternion.identity);
+                //newBox.GetComponent<BoxController>().type = index;
+                b++;
+                //Debug.Log($"{foodType[index]}");
+            }
+
+
+
         }
 
         // detects first platform from top-right
@@ -172,6 +214,16 @@ public class TileMapManager : MonoBehaviour
 
     }
 
+    public class Position
+    {
+        public int Row;
+        public int Col;
 
+        public Position(int row, int col)
+        {
+            Row = row;
+            Col = col;
+        }
+    }
 
 }
