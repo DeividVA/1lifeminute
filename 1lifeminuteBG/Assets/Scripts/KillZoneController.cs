@@ -8,7 +8,11 @@ public class KillZoneController : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player")) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (other.gameObject.CompareTag("Player")) 
+        {
+            TileMapManager.Instance.ResetPoints();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 }
 

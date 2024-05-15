@@ -9,6 +9,8 @@ using UnityEngine.UIElements;
 
 public class TileMapManager : MonoBehaviour
 {
+    public static TileMapManager Instance;
+
     [SerializeField] private GameObject player;
     [SerializeField] private Tilemap background;
     [SerializeField] private Tilemap grid;
@@ -35,9 +37,25 @@ public class TileMapManager : MonoBehaviour
 
     [SerializeField] private GameObject door;
 
+    private int _points;
+
     // Start is called before the first frame update
     void Start()
     {
+
+
+        if (Instance == null)
+        {
+            Instance = this;
+            _points = 0;
+            DontDestroyOnLoad(this);
+        }
+        else
+        {
+            Destroy(this);
+        }
+
+
         Vector3Int position;
         // fill background
         for (int i = 0; i < sceneSize * atomSize; i++)
@@ -178,6 +196,8 @@ public class TileMapManager : MonoBehaviour
                 GameObject newBox = Instantiate(foodTypes.foods[index].foodPrefab, GetWorldPosition(x, y) + boxOffset, Quaternion.identity);
                 Debug.Log(foodTypes.foods[index].food);
                 //newBox.GetComponent<SpriteRenderer>().color = foodTypes.foods[index].color;
+
+
                 boxes[x][y] = true;
                 b++;
             }
@@ -219,6 +239,19 @@ public class TileMapManager : MonoBehaviour
         Vector3Int position = new Vector3Int(i * atomSize + 1, j * atomSize + (atomSize - 1), 0);
         return grid.CellToWorld(position);
     }
+
+
+    // HEALTHY POINTS
+
+    public void AddPoints(int quantity)
+    {
+        _points += quantity;
+    }
+
+    public int GetPoints() { return _points; }
+
+    public void ResetPoints() { _points = 0; }
+
 
     // Update is called once per frame
     void Update()

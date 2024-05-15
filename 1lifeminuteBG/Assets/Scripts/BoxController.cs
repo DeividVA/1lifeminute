@@ -23,9 +23,17 @@ public class BoxController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
 
-        RevealTrueSelf();
-        Debug.Log("Chocando Trigger");
-        StartCoroutine(Plof());
+        if (other.CompareTag("Player"))
+        {
+            TileMapManager.Instance.AddPoints(type.healthyPoints);
+
+            RevealTrueSelf();
+            Debug.Log("Chocando Trigger");
+            StartCoroutine(Plof());
+
+        }
+
+
     }
 
     //private void OnCollisionEnter2D(Collision2D other)
@@ -57,4 +65,7 @@ public class BoxController : MonoBehaviour
         _animator.SetBool("isClosed", false);
 
     }
+
+
+
 }
