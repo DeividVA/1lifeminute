@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class FoodTypeSO : ScriptableObject
 {
-    //[SerializeField] public int index;
+    [SerializeField] public int id;
     [SerializeField] public string food;
     [SerializeField] public GameObject foodPrefab;
     [SerializeField] public int healthyPoints;

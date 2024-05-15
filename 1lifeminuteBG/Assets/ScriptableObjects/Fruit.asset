@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecd409ed18fe15e4cb509dcac0616af2, type: 3}
   m_Name: Fruit
   m_EditorClassIdentifier: 
+  id: 5
   food: Fruit
-  foodPrefab: {fileID: 8658543670507190393, guid: da40e52d7c739284fbd8e93c6e564170, type: 3}
+  foodPrefab: {fileID: 6933707549773583508, guid: 3423b756543dde34b94890532f7c88ec, type: 3}
   healthyPoints: 50
   color: {r: 0.77254903, g: 0.15686274, b: 0.6779331, a: 0}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Junk
   m_EditorClassIdentifier: 
   food: Junk
-  foodPrefab: {fileID: 8658543670507190393, guid: da40e52d7c739284fbd8e93c6e564170, type: 3}
+  foodPrefab: {fileID: 6933707549773583508, guid: 5f7e14eb1261ecb4bbbd2b915ac62bf7, type: 3}
   healthyPoints: 0
   color: {r: 0.083704144, g: 0.2763304, b: 0.9339623, a: 0}

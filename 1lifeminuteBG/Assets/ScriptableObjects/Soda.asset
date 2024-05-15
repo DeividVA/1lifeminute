@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecd409ed18fe15e4cb509dcac0616af2, type: 3}
   m_Name: Soda
   m_EditorClassIdentifier: 
+  id: 2
   food: Soda
-  foodPrefab: {fileID: 8658543670507190393, guid: da40e52d7c739284fbd8e93c6e564170, type: 3}
+  foodPrefab: {fileID: 6933707549773583508, guid: 5f7e14eb1261ecb4bbbd2b915ac62bf7, type: 3}
   healthyPoints: 20
   color: {r: 0.9811321, g: 0.1804913, b: 0.1804913, a: 0}

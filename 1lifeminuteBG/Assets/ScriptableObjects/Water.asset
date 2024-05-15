@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecd409ed18fe15e4cb509dcac0616af2, type: 3}
   m_Name: Water
   m_EditorClassIdentifier: 
+  id: 4
   food: Water
-  foodPrefab: {fileID: 8658543670507190393, guid: da40e52d7c739284fbd8e93c6e564170, type: 3}
+  foodPrefab: {fileID: 6933707549773583508, guid: 3423b756543dde34b94890532f7c88ec, type: 3}
   healthyPoints: 40
-  color: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 0.6603774, b: 0.53936565, a: 0}
