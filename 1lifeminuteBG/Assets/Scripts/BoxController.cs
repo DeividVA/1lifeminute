@@ -9,6 +9,8 @@ public class BoxController : MonoBehaviour
 
     private Animator _animator;
 
+    private Collider2D _collider;
+
     [SerializeField] private float plofTime;
 
     // Start is called before the first frame update
@@ -17,7 +19,7 @@ public class BoxController : MonoBehaviour
         _animator = GetComponent<Animator>();
         _animator.SetInteger("foodType", type.id);
         //StartCoroutine(Disapear());
-
+        _collider = GetComponent<Collider2D>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -62,6 +64,7 @@ public class BoxController : MonoBehaviour
 
     void RevealTrueSelf ()
     {
+        _collider.enabled = false;
         _animator.SetBool("isClosed", false);
 
     }
