@@ -23,6 +23,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        _animator.SetBool("isGoingUp", _rigidbody.velocity.y > 0.1f);
+        _animator.SetBool("isGoingDown", _rigidbody.velocity.y < -0.1f);
+
         // Jump only if vertical velocity absolute value is less than jumpPrecision 
         if (Input.GetButtonDown("Jump"))
         {
