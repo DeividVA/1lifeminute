@@ -29,6 +29,16 @@ public class PlayerController : MonoBehaviour
             if (Mathf.Abs(_rigidbody.velocity.y) <= jumpPrecision) _rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
 
+        if (Input.GetButtonDown("Fire2"))
+        {
+            _animator.SetBool("isAttacking", true);
+        }
+
+        if (Input.GetButtonUp("Fire2"))
+        {
+            _animator.SetBool("isAttacking", false);
+        }
+
 
         // If no horizontal movement stop running animation
         if (Input.GetAxis("Horizontal") == .0f)

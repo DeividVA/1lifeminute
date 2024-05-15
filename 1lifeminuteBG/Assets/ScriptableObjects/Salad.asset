@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 6
   food: Salad
-  foodPrefab: {fileID: 6933707549773583508, guid: 3423b756543dde34b94890532f7c88ec, type: 3}
+  foodPrefab: {fileID: 6933707549773583508, guid: d43247b7a572d094d9ab1c846f5af1e4, type: 3}
   healthyPoints: 60
   color: {r: 0.36083272, g: 0.9528302, b: 0.35506406, a: 0}

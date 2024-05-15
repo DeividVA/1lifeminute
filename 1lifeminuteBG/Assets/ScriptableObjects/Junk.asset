@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecd409ed18fe15e4cb509dcac0616af2, type: 3}
   m_Name: Junk
   m_EditorClassIdentifier: 
+  id: 0
   food: Junk
-  foodPrefab: {fileID: 6933707549773583508, guid: 5f7e14eb1261ecb4bbbd2b915ac62bf7, type: 3}
+  foodPrefab: {fileID: 6933707549773583508, guid: c8cf6ea8a1ff8a448aad3c49e740917e, type: 3}
   healthyPoints: 0
   color: {r: 0.083704144, g: 0.2763304, b: 0.9339623, a: 0}

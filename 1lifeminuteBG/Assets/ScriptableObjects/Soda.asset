@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   food: Soda
-  foodPrefab: {fileID: 6933707549773583508, guid: 5f7e14eb1261ecb4bbbd2b915ac62bf7, type: 3}
+  foodPrefab: {fileID: 6933707549773583508, guid: 175443bf13db0e24b8fbebf2d8c092b0, type: 3}
   healthyPoints: 20
   color: {r: 0.9811321, g: 0.1804913, b: 0.1804913, a: 0}
